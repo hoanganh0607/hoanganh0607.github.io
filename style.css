@@ -1,0 +1,19 @@
+div{
+	max-width: 1000px;
+	margin: auto;
+
+}
+a{
+	float: left;
+	font-size: 25px;	
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+    a:hover {color: red;}
+    a:active {color: black;}
+h4{
+	line-height: 2;
+
+}
+   
