@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+
+}
+div{
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+
+#container-lare{
+	float: left;
+	position: relative;
+}
+#main-menu{
+	position: absolute;
+    width: 290px;
+    top: -3px;
+    left: 2px;
+}
+.container{
+	float: left;
+	
+    position: absolute;
+    top: -23px;
+    left: 324px;
+}
+.container img{
+    height: 600px; 
+    width: 600px;
+
+}
+@keyframes title {
+    0% { opacity: 0}
+    10% {opacity: 0.1}
+    30% { opacity: 0.3}
+    40% {opacity: 0.4}
+    60% { opacity: 0.6}
+    80% {opacity: 0.8}
+    90% { opacity: 0.9}
+    100% {opacity: 1}   
+}
+
+
+h1{
+	text-align: center;
+	background-color: pink;
+	color: white;
+	height: 50px;
+	animation: title 5s ease infinite;
+}
+h3{
+	text-align: center;
+}
+
+#main-menu{
+	width: 218px;
+	border: 0.6px solid #104e8b;
+	
+}
+ul li {
+	list-style-type: none;
+	background-color: white;
+   
+}
+ul li a {
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+}
+ul {
+	padding: 0;
+}
+a:link{color: #9E9E9E}
+a:visited{color: #808080}
+a:hover{
+	color: #3399FF;
+	background-color: #EEEEEE;
+}
+
+#back{
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+h4{
+    font-size: 20px;
+    right: 0;
+    bottom: 0;
+    
+}
+@keyframes hihi {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+#d4{
+	animation: hihi 4s ease infinite;
+   
+}
+   
+
+
+
+
+
+
+
+
+
