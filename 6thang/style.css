@@ -1,0 +1,56 @@
+*{
+	box-sizing: border-box;
+}
+div{
+	max-width: 1000px;
+	margin: auto;
+
+}
+
+body{
+	background-color: #FF9999;
+
+}
+#menu a{
+	float: left;
+	font-size: 35px;	
+	padding-right: 20px;
+}
+    a:link {color: 	white;}
+    a:hover {color: red;}
+    a:active {color: black;}
+    
+    a{
+	  text-decoration: none;
+     }
+.img{
+	float: left;
+
+
+}
+h1{
+	text-align: center;
+	color: pink;
+	font-size: 55px;
+}
+#content{
+	width: 1000px;
+	height: 1550px;
+	background-color: white;
+}
+h2{
+	color: pink;
+}
+#h4{
+	color: #CC6699;
+	
+    line-height: 40px;
+
+}
+#h5{
+	font-size: 120px;
+	color: #CC6699;
+}
+h3{
+	text-align: center;
+}
