@@ -28,6 +28,9 @@ a{
     transition-duration: 0.3s;
     
 }
+a h3:link{
+	color: black;
+}
 a h3:hover{
 	color: #FF0099;
 }
