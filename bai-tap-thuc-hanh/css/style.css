@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+#page{
+	max-width: 1290px;
+	margin: auto;
+}
+h1{
+	text-align: center;
+	color: #000077;
+	font-size: 40px;
+}
+h3{
+	text-align: center;
+	font-size: 25px;
+}
+
+.img{
+	float: left;
+	margin: 15px;
+	margin-bottom: -19px;
+}
+a{
+	text-decoration: none;
+}
+.img img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    
+}
+a h3:hover{
+	color: #FF0099;
+}
+#back a img{
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 70px;
+
+}
+
+

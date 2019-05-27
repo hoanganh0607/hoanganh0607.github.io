@@ -1,0 +1,19 @@
+	body{
+			max-width: 1000px;
+	        margin: auto;
+		}
+		h1{
+			text-align: center;
+			color: #000077;
+		}
+#back a img{
+	position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 70px;
+
+}
+h3{
+	line-height: 2;
+	}
