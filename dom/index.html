@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Bài tập DOM</title>
+        <meta charset="UTF-8">       
+    </head>
+    <script>
+            
+            ;
+            //Baif1.
+            function changeColor(){
+                p1.style.color = "green";
+                p2.style.color = "yellow";
+                p3.style.color = "red";
+            }
+            //Bài 2.
+            function changeBgColor (color){
+                document.body.style.background = color;
+            }
+            //Bài 3.
+            function coppyContent(paragraph1, paragraph2){
+                var copy = paragraph2.innerHTML;
+                p1.innerHTML = copy;
+            }
+            //Bài tập 4.
+            var x = Number;
+            function changeFontSize(x){
+                document.body.style.fontSize = x + "px";
+            }
+            //Bài tập 5.
+            function increaseFontSize(paragraph){
+                paragraph.style.fontSize = x+1;
+            }
+        </script>
+    <body>
+        <div class="wrap">
+            <h1>Xiaomi ra mắt Mi Band 4: giá từ 24$, màn hình màu, trợ lý Xiao AI, chống nước 50m, tháng 7 về VN</h1>
+            <div class="box">
+                <p id="p1">Xiaomi vừa ra mắt Mi Band 4 tại Trung Quốc với 3 phiên bản, phiên bản cao nhất tích hợp cả NFC. Nâng cấp lớn nhất có lẽ là màn hình màu thay vì trắng đen, đi kèm 77 themes màu sắc khác nhau để cá nhân hoá và có 8 mẫu dây đeo để lựa chọn, có cả band Avengers độc quyền. Mi Band 4 sẽ có giá khởi điểm 169CNY (khoảng 24$) cho bản tiêu chuẩn, 229CNY (khoảng 33$) cho bản NFC và 349CNY (50$) cho bản Avengers giới hạn. Theo thông tin, Mi Band 4 sẽ bán ra tại Việt Nam từ tháng 7 và có giá dự kiến khoảng 800k</p>
+                <p id="p2">Một nâng cấp lớn của Mi Band 4 bên cạnh màn hình màu là cảm biến gia tốc 6 để theo dõi luyện tập thể thao tốt hơn, đi kèm với tính năng phát hiện kiểu bơi để đưa ra kết quả đo chính xác. Mi Band 4 cũng sẽ có khả năng chống nước ở độ sâu 50m (5ATM), kết hợp với những cải tiến trong theo dõi tập luyện, nó thậm chí sẽ giúp xác định kỹ năng bơi lội của bạn dựa trên hiệu suất.</p>
+                <p id="p3">Mi Band 4 vẫn dùng cảm biến nhịp tim giống thế hệ cũ, cũng như vẫn có tính năng theo dõi, đo chất lượng giấc ngủ, hỗ trợ Bluetooth 5.0, các tính năng theo dõi sức khoẻ với 6 chế độ tập luyện cơ bản,..Về thời lượng pin, phiên bản NFC sẽ có pin 15 ngày, bản bình thường sẽ có pin 20 ngày.</p>
+            </div>
+
+        </div>
+    </body>
+</html>
