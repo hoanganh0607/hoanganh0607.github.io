@@ -1,0 +1,56 @@
+
+h1{
+    text-align: center;
+}
+.hh{
+    position: absolute;
+    width: 400px;
+    height: 45px;
+    top: -9px;
+    
+}
+.nut{
+    position: absolute;
+    width: 389px;
+    top: 171px;
+    left: 6px;
+}
+#wrap{
+    max-width: 400px;
+    margin: auto;
+    height: 484px;
+    border: 2px solid gray;
+    position: relative;
+    
+}
+.screen{
+    border: 1.5px solid gray;
+    width: 385px;
+    position: absolute;
+    top: 65px;
+    left: 6px;
+    height: 94px;
+}
+
+#screen , #result{
+    width: 385px;
+    height: 47px;
+    font-size: 30px;
+    border: none;
+    
+    
+}
+
+button{
+    width: 94px;
+    height: 50px;
+    font-size: 28px;
+}
+#color{
+    font-size: 16px;
+    position: absolute;
+    top: 492px;
+    left: 303px;
+    height: 41px;
+    background-color: pink;
+}
