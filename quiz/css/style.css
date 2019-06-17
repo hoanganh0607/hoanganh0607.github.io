@@ -1,0 +1,126 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+html {
+	background: url(../img/background.png)
+}
+#content {
+	max-width: 700px;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+h1 {
+	width: 100%;
+	font-size: 72px;
+	font-weight: 800;
+	text-transform: uppercase;
+/*	position: relative;*/
+	text-shadow:  1px 1px 0px rgba(75,75,75,1.00), 2px 2px 0px rgba(75,75,75,1.00), 3px 3px 0px rgba(75,75,75,1.00), 4px 4px 0px rgba(75,75,75,1.00);
+	color: rgba(75,75,75,1.00);
+	text-align: center;
+	border-bottom: double 4px gray;
+/*	animation: title 5s linear, endtitle 2s 5s linear;*/
+}
+h1:after {
+	width: 100%;
+	content: "Let's take a quiz";
+	background-image: linear-gradient(-45deg, transparent 0%, transparent 25%, #fafafa 25%, #fafafa 50%, transparent 50%, transparent 75%, #fafafa 75%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 5px 5px;
+	color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-shadow: none;
+	text-align: center;
+/*
+	animation: title 5s linear, endtitle 2s 5s linear;*/
+}
+@keyframes title {
+	0% {transform: translate(-100%,0);}
+	100% {transform: translate(100%,0);}
+}
+@keyframes endtitle {
+	0% {transform: translate(-100%,0);}
+	100% {transform: translate(0,0);}
+}
+#quiz {
+	max-width: 500px;
+	margin: auto;
+}
+#question {
+	font-size: 35px;
+	background: white;
+	padding: 10px;
+	margin: 20px 10px;
+	border-radius: 15px;
+	position: relative;
+}
+#question::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(-45deg, transparent 0%, transparent 25%, rgba(75,75,75,1.00) 25%, rgba(75,75,75,1.00) 50%, transparent 50%, transparent 75%, rgba(75,75,75,1.00) 75%);
+	background-size: 5px 5px;
+	border-radius: 15px;
+	transform: translate(5px,5px);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -3;
+}
+.ans {
+	font-size: 20px;
+	background: white;
+	padding: 10px;
+	margin: 15px 10px;
+	border-radius: 15px;
+	position: relative;
+}
+.ans::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(-45deg, transparent 0%, transparent 25%, rgba(75,75,75,1.00) 25%, rgba(75,75,75,1.00) 50%, transparent 50%, transparent 75%, rgba(75,75,75,1.00) 75%);
+	background-size: 5px 5px;
+	border-radius: 15px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: -3;
+}
+.ans:hover {
+	top: 2px;
+	left: 2px;
+	cursor: pointer;
+}
+i {
+	float: right;
+}
+#next {
+	text-align: right;
+	margin: 20px;
+	font-size: 20px;
+	color: gray;
+	float: right;
+}
+#next:hover {
+	cursor: pointer;
+}
+.active {
+	top: 2px;
+	left: 2px;
+}
+#score {
+	font-size: 20px;
+	padding: 10px;
+	margin: 0px 10px;
+	float: left;
+}
