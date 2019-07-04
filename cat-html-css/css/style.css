@@ -1,0 +1,62 @@
+
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 14PX;
+    color: #626262;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.navbar-brand{
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+}
+.navbar>.container-fluid .navbar-brand{
+    margin-left: -30px;
+}
+.navbar-default{
+    background-color:white;
+    border-color: white;
+}
+.nav>li>a{
+    padding: 14px 50px;
+}
+h3{
+    padding-top: 100px;
+    padding-bottom: 31px;
+    
+}
+h2{
+    padding-bottom: 35px;
+}
+.p1{
+    padding-bottom: 134px;
+    padding-top: 53px;
+}
+@media (min-width: 1200px){
+    .contain{
+        max-width: 1064px;
+        margin: auto;      
+    }    
+}
+
+section.contain-fluid{     
+        background-color: rgb(240, 240, 240);
+        height: 283px;                   
+}
+.contain-fluid h2{      
+    color: rgb(51, 51, 51);
+    padding-top: 73px;
+    text-align: center;        
+}
+.contain-fluid p{    
+    text-align: center;       
+    color: rgb(98, 98, 98);
+    line-height: 81px;             
+}
+footer.contain-fluid{
+    height: 100px;
+    background-color: rgb(240, 240, 240);
+}
+  
