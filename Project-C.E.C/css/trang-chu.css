@@ -1,0 +1,359 @@
+
+
+/* header-menu */
+
+.header-menu{
+    background: url(../img/jpg/ian-dooley-347942-unsplash.27d1967c.jpg) no-repeat center;
+    background-size: cover;
+    height: 705px;
+}
+
+.bg-light{
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.79);
+}
+.form-control{
+    background: rgba(62, 60, 60, 0.26);
+    border-radius: 10px;
+    color: #000000;
+    
+}
+.form-inline .form-control{
+    width: 110px;
+}
+.mr-sm-2{
+    margin-right: 146px;
+}
+.header-menu input::-webkit-input-placeholder{
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+/* contact */
+
+
+.container {
+    max-width: 1300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+        
+}
+
+.col-xl-4{
+    text-align: center;
+}
+.shopping{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px
+}
+.phone{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px
+}
+.hand{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px
+}
+.contact1{
+    display: inline-table;
+    padding-left: 15px;
+}
+.contact1 h5 p{
+    font-size: 20px   
+}
+.borderr{
+    border-right: 1px solid #000000;
+}
+.contact{
+    margin-bottom: 85px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.contact1 p{
+    font-weight: 300;
+}
+
+/* product */
+
+
+.product div, h1{
+    text-align: center;
+}
+.product h1{
+    
+    color: #0099CC;
+    font-size: 40px;
+    line-height: 47px;
+}
+.product p{
+    margin-bottom: 12px;
+    margin-top: 6px;    
+}
+.container-new:link{
+    color: #575757;
+}
+.container-new:visited{
+    color: #575757;
+}
+.product h5{
+    font-size: 24px;
+    color: #31659C;
+    font-weight: bold;
+    margin-bottom: 53px;
+}
+.product a{
+    text-decoration: none;
+    
+}
+.more{
+    display: inline-block;
+    padding: 10px;
+    background: #0099CC;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 155px;
+    height: 57px;
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 139px;
+          
+}
+.more:hover{
+    color: #575757;
+    background-color: #FFFFFF;
+    border-radius: 1px;
+    border-color: #575757;
+    border-style: solid;
+}
+
+/* banner bộ sưu tập hè thu*/
+
+.banner-summer{
+    text-align: center;
+    position: relative;
+    margin-bottom: 132px;
+    background: url(../img/jpg/add_banner_img.jpg) no-repeat center;
+    background-size: cover;
+    height: 560px; 
+    
+}
+.text-summer{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Raleway', sans-serif;;       
+    text-transform: uppercase;
+    color: #252525;
+}
+.text-summer h5{
+    font-size: 36px;
+    font-style: normal;
+font-weight: 500;
+padding-bottom: 33px;
+line-height: 42px;
+}
+.text-summer h5 span{
+    font-weight: bold;
+    font-size: 43px;
+}
+.text-summer h6{
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 65px;
+
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.text-summer h6 span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: bold;
+font-size: 55px;
+line-height: 64px;
+text-transform: uppercase;
+
+color: #3599B9;
+}
+.summer-shopping{
+    background-color: #00000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 47px;
+    text-transform: uppercase;
+    color: #000000;       
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+}
+.summer-shopping:hover{
+    background-color: #0099CC;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-color: #0099CC;  
+}
+    
+
+
+
+
+/* san pham ban chay */
+
+.product-2 div{
+    text-align: center;
+}
+.product-2 a{
+    text-decoration: none;
+}
+.product-2 a h1{   
+    color: #0099CC;
+    font-size: 40px;
+    line-height: 47px;   
+    margin-bottom: 55px;
+}
+.slide img {
+    width: 235px;
+    
+}
+.slide {   
+    max-width: 1332px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.slick-prev {
+    left: 0;   
+}
+.slick-next {
+    right: 0;   
+}
+.slick-prev:before, .slick-next:before {      
+    font-size: 48px;   
+    color: #03A9F4;   
+}
+.slick-prev, .slick-next{
+    top: -13%;
+    height: 32px;
+    width: 32px;
+}
+.slick-next:before {
+    content: url(../img/jpg/keyboard-right-arrow-button.png);
+}
+.slick-prev:before {
+    content: url(../img/jpg/keyboard-right-arrow-button2.png);
+}
+.slide-1 p{
+    margin-bottom: 6px;
+    margin-top: 6px;
+    color: #575757;
+}
+.slide-1 h5{
+    font-size: 24px;
+    color: #31659C;
+    font-weight: bold;
+    margin-bottom: 53px;
+}
+.slide-1 a{
+    text-decoration: none;
+}
+
+/* banner phong cách thời trang */
+
+.banner-fashion{
+    background: url(../img/jpg/anh.jpg) no-repeat center;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    margin-bottom: 163px;   
+}
+.banner-fashion div{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+}
+.banner-fashion h1{
+    font-family: 'Amita';
+font-style: normal;
+font-weight: normal;
+font-size: 76px;
+line-height: 140px;
+color: #FFFFFF;
+}
+
+/*sản phẩm khuyến mãi*/
+
+/* đăng kí nhận thông tin*/
+
+.register-information{
+    background: url(../img/jpg/slider2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 373px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+.form-register{
+       
+    text-align: center;
+}
+.form-register h1{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.form-register ::-webkit-input-placeholder {
+    color: #656161;
+ }
+.form-register input{
+    width: 438px;
+    height: 46px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FFFFFF;   
+}
+.form-register input:focus {  
+    outline: 0;  
+    outline-style: none;  
+    outline-width: 0; 
+}
+.register-information .input-email{
+    position: relative;
+    display: inline-block;
+}
+.input-email img{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+
