@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+}
+input:focus, select:focus, textarea:focus{  
+    outline: 0;  
+    outline-style: none;  
+    outline-width: 0; 
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+.header-contact{
+    max-width: 100%;
+    height: 46px;
+    background: rgba(235, 235, 235, 0.23);
+    
+}
+.contact-mobile{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+}
+.phone-receiver{
+    height: 25px;
+    width: 25px;    
+}
+.contact-line{
+    margin-left: 5px;
+    margin-top: 40.01px;   
+}
+.contact-gmail{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 19px;
+}
+@media screen and (max-width: 570px) {
+    .contact-gmail{
+        display: none;
+    }
+  }
+.gmail{
+    height: 25px;
+    width: 25px;
+}
+
+
+
+
+.btn-outline-success{   
+    border-radius: 0;
+    padding: 0;
+    border: none;
+}
+.btn-outline-success img{
+    padding-right: 10px;
+    border-right: 1.5px solid #000000;
+}
+.btn-outline-success:hover{
+    background-color: #28a74500;
+}
+.btn-outline-success:visited{
+    background-color: #28a74500;
+}
+.shopping-cart{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+.contact-login {
+    margin-right: 16px;
+    margin-top: 5px;
+    float: right;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.contact-registration {
+    margin-right: 0;
+    margin-top: 5px;
+    float: right;
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.btn-login{
+    margin-left: 0;
+
+}
+.contact-line2{
+    float: right;
+    margin-right: 0;
+    margin-top: 6px;
+}
+
+.modal-content{
+    border: none;
+}
+.modal-login{
+    display: flex;
+    height: 50px;
+}
+.modal-login-div-1{
+    width: 50%;
+    display: flex;   
+    justify-content: center;
+    align-items: center;       
+    
+}
+.modal-login-input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    font-size: 21px;
+    margin-left: 0;
+}
+.modal-login-div-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*login header */
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 500px;       
+    }
+}
+.modal-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+.input-2-1{
+    width: 365px;
+    height: 43px;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+.input-2-2{
+    width: 365px;
+    height: 43px;
+    margin-bottom: 8px;
+    margin-left: 0;
+}
+.lable-2{
+    margin-left: 0;
+    margin-bottom: 3px;
+}
+.modal-footer {
+    border: none;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.btn-primary {
+    width: 365px;
+    height: 43px;
+    background-color: #558B9D;
+    border-color: #558B9D;
+}        
+.modal-body form a{
+    color: #000000;
+
+}
+.modal-footer>:not(:first-child) {
+    margin-left: 0;
+}
+/* footer */
+footer{
+    background: rgba(37, 37, 37, 0.9);
+    color: #DDDDDD;   
+    line-height: 34px; 
+}
+.footer-cec{
+    padding-top: 50px;
+}
+ul { list-style-type: none; }
+.footer-cec ul ul{
+    display: flex;
+    margin-top: 20px;
+}
+.footer-cec ul ul li{
+    margin-right: 30px;
+}
+.footer-a:link, .footer-a:visited{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+footer .container{
+    max-width: 1300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
