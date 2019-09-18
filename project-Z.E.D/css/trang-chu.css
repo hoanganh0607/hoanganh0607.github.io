@@ -107,7 +107,21 @@
     .header-menu{        
         height: 130px;
     }
+    .contact .col{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .shopping, .phone, .hand {
+        height: 40px;
+        width: 40px;
+    }    
 }
+@media screen and (max-width: 500px) {
+    .contact1 p{
+        display: none;
+    }
+    
+}  
 /* product */
 
 
@@ -389,11 +403,8 @@ color: #FFFFFF;
     }
     
 }
-  @media screen and (max-width: 500px) {
-    .contact1 p{
-        display: none;
-    }
-    
-  }  
+
+/* contact */
+  
 
 

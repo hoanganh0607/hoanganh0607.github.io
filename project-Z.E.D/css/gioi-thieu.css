@@ -108,6 +108,13 @@
     color: #31659C;
     font-weight: bold;
 }
+@media screen and (max-width: 1200px) {
+    .introduce .product{
+        display: none;
+    }
+    
+  }
+
 
 /* đăng kí nhận thông tin*/
 
@@ -158,3 +165,16 @@
     top: 8px;
     right: 10px;
 }
+@media screen and (max-width: 470px) {
+    .input-email input{
+        width: 360px;
+    }
+    
+}
+@media screen and (max-width: 385px) {
+    .input-email input{
+        width: 300px;
+    }
+    
+}
+

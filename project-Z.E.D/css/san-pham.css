@@ -78,7 +78,7 @@
 
 
 @media (min-width: 768px){
-    .product container {
+    .product .container {
         max-width: 100%;
     }
 
@@ -89,6 +89,14 @@
     }
 
 }
+@media (min-width: 820px){
+    .product .container {
+        padding-right: 70px;
+        padding-left: 70px;
+    }
+
+}
+
 
 
 
@@ -160,10 +168,7 @@
     color: #31659C;
     margin-bottom: 41px;
 }
-.product .container {
-    padding-right: 80px;
-    padding-left: 70px;
-}
+
 
 .pagination{
     padding-right: 80px;
@@ -171,6 +176,10 @@
 
 /* contact */
 
+.contact{
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
 .container {
     max-width: 1300px;
     padding-top: 30px;
@@ -207,11 +216,44 @@
     border-right: 1px solid #000000;
 }
 .contact{
-    margin-top: 50px;
-    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 85px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 }
 
 .contact1 p{
     font-weight: 300;
-    
 }
+@media (max-width: 768px){
+    .header-menu{        
+        height: 360px;
+    }
+    .shopping, .phone, .hand {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+    .contact .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 440px){
+    .header-menu{        
+        height: 130px;
+    }
+    .contact .col{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .shopping, .phone, .hand {
+        height: 40px;
+        width: 40px;
+    }    
+}
+@media screen and (max-width: 500px) {
+    .contact1 p{
+        display: none;
+    }
+    
+} 
+
