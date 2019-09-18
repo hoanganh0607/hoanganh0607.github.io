@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/xac-nhan-dat-hang.css">
+    <title>Xác nhận đặt hàng</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Amita&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/jpg/dragon.png" />
+</head>
+
+<body>
+    <header>
+        <div class="header-contact">
+            <span class="contact-mobile">
+                <img class="phone-receiver" src="img/svg/phone-receiver.svg">
+                0393787517
+            </span>
+            <span class="contact-line">
+                <img src="img/jpg/Line.jpg">
+            </span>
+            <span class="contact-gmail">
+                <img class="gmail" src="img/svg/letter.svg">
+                hoanganhn39@gmail.com
+            </span>
+            <span class="contact-login">
+                <input type="submit" class="btn btn-login" id="exampleModalLabel" data-toggle="modal"
+                    data-target="#exampleModal" value="Đăng kí">
+            </span>
+            <span class="contact-line2">
+                <img src="img/jpg/Line.jpg">
+            </span>
+            <span class="contact-registration">
+                <input type="submit" class="btn btn-login" id="exampleModalLabel" data-toggle="modal"
+                    data-target="#exampleModal" value="Đăng nhập">
+            </span>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-login">
+                            <div class="modal-login-div-1">
+                                <input class="modal-title modal-login-input login-input-1" type="submit"
+                                    value="Đăng nhập">
+
+                            </div>
+                            <div class="modal-login-div-2">
+                                <input class="modal-title modal-login-input login-input-2" type="submit"
+                                    value="Đăng kí">
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <form class="hien">
+                                <label class="lable-2" for="email">Email</label><br>
+                                <input class="input-2-1" type="email" name="" placeholder="Nhập địa chỉ email"
+                                    id="email"><br>
+                                <label class="lable-2" for="password">Mật khẩu</label><br>
+                                <input class="input-2-2" type="password" placeholder="Nhập mật khẩu" name=""
+                                    id="password">
+                                <a href="">
+                                    <p>Quên mật khẩu?</p>
+                                </a>
+                            </form>
+                            <form class="an">
+                                <label class="lable-2" for="name">Họ và tên</label><br>
+                                <input class="input-2-1" type="name" name="" placeholder="Nhập họ tên" id="name"><br>
+                                <label class="lable-2" for="email">Địa chỉ email</label><br>
+                                <input class="input-2-1" type="email" placeholder="Nhập địa chỉ email" name=""
+                                    id="email"><br>
+                                <label class="lable-2" for="password">Mật khẩu</label><br>
+                                <input class="input-2-1" type="password" placeholder="Nhập Mật khẩu" name=""
+                                    id="password"><br>
+                                <label class="lable-2" for="number">Số điện thoại</label><br>
+                                <input class="input-2-1" type="number" placeholder="Nhập Số điện thoại" name=""
+                                    id="number">
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary hien">Đăng nhập</button>
+                            <button type="button" class="btn btn-primary an">Đăng kí</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--header-menu-->
+
+        <div class="container-fluid header-menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="img/jpg/Group.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Trang chủ <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gioi-thieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="san-pham.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Lien-he.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder=search aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><img src="img/jpg/search.png"
+                                alt=""></button>
+                        <a href="gio-hang.html"><img class="shopping-cart" src="img/jpg/shopping-cart.png" alt=""></a>
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!--ol link-->
+
+    <ol class="path">
+        <li class="li-1"><a href="index.html">Trang chủ</a></li>
+        <li>Xác nhận đặt hàng</li>
+    </ol>
+
+    <!--Giỏ hàng-->
+
+    <div class=" table-shopping">
+        <h1>Xác nhận đặt hàng</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Hình ảnh</th>
+                    <th scope="col">Sản phẩm</th>
+                    <th scope="col">Kích thước</th>
+                    <th scope="col">Màu sắc</th>
+                    <th scope="col">Số lượng</th>
+                    <th scope="col">Đơn giá</th>
+                    <th scope="col">Xóa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="">
+                            <img class="img-table" src="img/jpg/san-pham/anh1.jpg" alt="Áo sơ mi nam kẻ karo">
+                        </a>
+                    </td>
+                    <td><a href="">Áo sơ mi nam kẻ karo</a></td>
+                    <td>XL</td>
+                    <td>Đỏ</td>
+                    <td>1</td>
+                    <td>60.000 VND</td>
+                    <td>xóa</td>
+                </tr>
+                <tr class="tr-1">
+                    <td><a href=""><img class="img-table" src="img/jpg/san-pham/anh2.jpg" alt=""></a></td>
+                    <td><a href="">Áo mặc tại nhà</a></td>
+                    <td>XL</td>
+                    <td>Đen</td>
+                    <td>1</td>
+                    <td>100.000 VND</td>
+                    <td>Xóa</td>
+                </tr>
+
+            </tbody>
+        </table>
+        <div class="order">
+            <h5>Số lượng: <span class="span-1">2</span></h5>
+            <h5>Thành tiền: <span>160.000 VND</span></h5>
+            
+        </div>
+    </div>
+
+    <div class="order-confirmation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-12 table-1">
+                    <h3><span>1.</span> Thông tin người nhận</h3>
+                    <form>
+                        <label for="name">Họ và tên</label><br>
+                        <input class="input-order" type="text" name="" id="name"><br>
+                        <label for="number">Số điện thoại</label><br>
+                        <input class="input-order" type="number" name="" id="number"><br>
+                        <label for="email">Email</label><br>
+                        <input class="input-order" type="email" name="" id="email"><br>
+                    </form>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 table-1 table-1-1">
+                    <h3><span>2.</span> Địa chỉ nhận hàng</h3>
+                    <form>
+                        <label for="tỉnh thành">Tỉnh thành</label><br>
+                        <select class="input-order" name="">
+                            <option>Chọn tỉnh thành</option>
+                            <option>Hà nội</option>
+                            <option>Hồ chí minh</option>
+                            <option>Đà nẵng</option>
+                        </select><br>
+                        <label for="quận huyện">Quận/ Huyện</label><br>
+                        <select class="input-order" name="">
+                            <option>Chọn quận/ huyện</option>
+                            <option>Nam từ liêm</option>
+                            <option>Bắc từ liêm</option>
+                            <option>Gia lâm</option>
+                        </select><br>
+                        <label for="xã phường">Xã/ Phường</label><br>
+                        <select class="input-order" name="">
+                            <option>Chọn xã/ phường</option>
+                            <option>Phù đổng</option>
+                            <option>Trung hòa</option>
+                            <option>Bách khoa</option>
+                        </select><br>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Địa chỉ cụ thể</label>
+                            <textarea class="form-control input-order" id="exampleFormControlTextarea1"
+                                rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12">
+                    <h3><span>3.</span> Phương thức thanh toán</h3>
+                    <input type="radio" name="pay" id="home"><label for="home">Thanh toán tại nhà COD</label><br>
+                    <input type="radio" name="pay" id="ATM"><label for="ATM">Thanh toán qua thẻ ATM nội địa</label><br>
+                    <input type="radio" name="pay" id="bank"><label for="bank">Thanh toán qua thẻ tín dụng</label><br>
+                    <label for="">Mã giảm giá( nếu có)</label><br>
+                    <input type="text" name="" id="">
+                    <div class="order payment-confirmation">
+                        <h3><span>4.</span> Xác nhận thanh toán</h3>
+                        <h5>Số lượng: <span class="span-1">2</span></h5>
+                        <h5>Tổng tiền: <span>160.000 VND</span></h5>
+                        <a href=""><button type="button" class="btn btn-primary btn-lg ">xác nhận đặt hàng</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--footer-->
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col borderr">
+                    <img class="shopping img-fluid" src="img/svg/shopping-cart.svg" alt="phone">
+                    <div class="contact1">
+                        <h5>Giao hàng miễn phí</h5>
+                        <p>Với đơn hàng chỉ từ 200K</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col borderr">
+                    <img class="phone img-fluid" src="img/svg/phone-call.svg" alt="phone">
+                    <div class="contact1">
+                        <h5>Hỗ trợ 24/7</h5>
+                        <p>Hotline: 0393787517</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col">
+                    <img class="hand img-fluid" src="img/svg/hand-shake.svg" alt="phone">
+                    <div class="contact1">
+                        <h5>Cam kết hàng chính hãng</h5>
+                        <p>Hoàn tiền nếu phát hiện hàng nhái</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+
+    <footer>
+        <div class="container footer-cec">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <ul>
+                        <h4>Về chúng tôi</h4>
+                        <li>Công ty cổ phần C.E.C</li>
+                        <li>Số ĐKKD: 0107574310, ngày cấp:
+                            23/09/2016. Nơi cấp: Sở Kế hoạch và
+                            đầu tư Hà Nội</li>
+                        <li>Người đại diện: Nguyễn Hoàng Anh</li>
+                        <li>Hotline: 0393787517</li>
+                        <li>Email: hoanganhn39@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <ul>
+                        <h4>Hỗ trợ</h4>
+                        <li><a class="footer-a" href="">Chính sách vận chuyển</a></li>
+                        <li><a class="footer-a" href="">Kiểm tra đơn hàng</a></li>
+                        <li><a class="footer-a" href="">Quy định đổi hàng</a></li>
+                        <li><a class="footer-a" href="">Chính sách KH thân thiết</a></li>
+                        <li><a class="footer-a" href="">Chính sách bảo mật thông tin</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <ul>
+                        <h4>Địa chỉ</h4>
+                        <li><a class="footer-a" href="">Cơ sở 1: Tầng 12A, tòa nhà Viwaseen Tower, số 48, Tố Hữu, Lê Văn
+                                Lương kéo dài, Hà Nội</a> </li>
+                        <li><a class="footer-a" href="">Cơ sở 2: 14 ngõ 4, Nguyễn Đình Chiểu, Quận Hai Bà Trưng, Hà
+                                Nội</a> </li>
+                        <li><a class="footer-a" href="">Cơ sở 3: Phù đổng, Gia lâm, Hà nội</a></li>
+                        <ul>
+                            <li><a href=""><img src="img/jpg/facebook.png" alt=""></a></li>
+                            <li><a href=""><img src="img/jpg/instagram.png" alt=""></a></li>
+                            <li><a href=""><img src="img/jpg/youtube.png" alt=""></a></li>
+                        </ul>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="library/jquery/jquery-3.4.1.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="javascrip/scrip.js"></script>
+    <script type="text/javascript" src="library/slick/slick.min.js"></script>
+
+
+</body>
+
+</html>

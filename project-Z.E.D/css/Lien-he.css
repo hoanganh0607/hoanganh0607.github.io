@@ -1,0 +1,180 @@
+/* Header */
+
+.header-menu{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    
+}
+
+.bg-light{
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.79);
+}
+.form-control{
+    background: rgba(62, 60, 60, 0.26);
+    border-radius: 10px;
+    color: #000000;
+    
+}
+
+.mr-sm-2{
+    margin-right: 146px;
+}
+.header-menu input::-webkit-input-placeholder{
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+
+/* ol */
+
+.path{
+    margin-top: 32px;
+    margin-left: -15px;
+    color: #575757;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+.path li{
+    display: inline-block;
+    
+}
+.path .li-1{
+    border-right: 1px solid rgba(0, 0, 0, 0.6);
+    width: 88px;   
+}
+
+.path a:link{
+    color: #575757;
+}
+.path a:visited{
+    color: #575757;
+}
+.path a{
+    text-decoration: none;
+}
+
+
+/* đăng kí nhận thông tin*/
+
+.register-information{
+    background: url(../img/jpg/slider2.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 373px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+.form-register{
+       
+    text-align: center;
+}
+.form-register h1{
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.form-register ::-webkit-input-placeholder {
+    color: #656161;
+ }
+.form-register input{
+    width: 438px;
+    height: 46px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    padding-left: 8px;   
+}
+
+.register-information .input-email{
+    position: relative;
+    display: inline-block;
+}
+.input-email img{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+/* contact  */
+
+.contact{
+    margin-bottom: 170px;
+    margin-top: 68px;
+}
+.contact form{
+    max-width: 800px;
+    height: 619px;
+    background: #F4F4F4;
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contact input{
+    font-family: 'Roboto';
+}
+.contact b{
+    color: #008fbe;
+}
+.contact form h3{
+    padding-top: 33px;
+    color: #008fbe;
+}
+.contact label, h3, .send, input{
+    margin-left: 47px;
+}
+.contact .input-1{
+    width: 467px;
+    height: 42px;  
+}
+.feedback{
+    height: 130px;
+    width: 467px;
+}
+.send{
+    background: #0099CC;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.branch div{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+
+@media (min-width: 1200px){
+    .contact .container {
+        max-width: 1400px;
+    }
+}
+@media (min-width: 200px){
+    .branch {
+        margin-top: 40px;
+    }
+
+}
+
+
+
+
+   

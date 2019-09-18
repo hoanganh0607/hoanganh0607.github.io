@@ -1,0 +1,157 @@
+.header-menu{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    
+}
+
+.bg-light{
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.79);
+}
+.form-control{
+    background: rgba(62, 60, 60, 0.26);
+    border-radius: 10px;
+    color: #000000;
+    
+}
+
+.mr-sm-2{
+    margin-right: 146px;
+}
+.header-menu input::-webkit-input-placeholder{
+    color: #000000;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+
+/* ol */
+
+.path{
+    margin-top: 32px;
+    margin-left: -15px;
+    color: #575757;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+.path li{
+    display: inline-block;
+    
+}
+.path .li-1{
+    border-right: 1px solid rgba(0, 0, 0, 0.6);
+    width: 88px;   
+}
+
+.path a:link{
+    color: #575757;
+}
+.path a:visited{
+    color: #575757;
+}
+.path a{
+    text-decoration: none;
+}
+
+
+/* giỏ hàng */
+
+.tr-1{
+    border-bottom: 1px solid #dee2e6;
+}
+.img-table{ 
+    height: 125.5px;
+    width: 95.2px;
+}
+.table-shopping .table, .order, h1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-outline-info{
+    width: 365px;
+    height: 43px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: #575757;
+    text-decoration: none;
+}
+.order span{
+    color: rgba(255, 0, 0, 0.78);;
+}
+.order .span-1{
+    color: #000000;
+}
+.table-shopping h1{
+    padding-top: 35px;
+    padding-bottom: 17px;
+}
+.order .btn-primary{
+    margin-bottom: 10px;
+}
+    
+
+/* contact */
+
+.container {
+    max-width: 1300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+        
+}
+
+.col-xl-4{
+    text-align: center;
+}
+.shopping{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px
+}
+.phone{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px
+}
+.hand{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px
+}
+.contact1{
+    display: inline-table;
+    padding-left: 15px;
+}
+.contact1 h5 p{
+    font-size: 20px   
+}
+.borderr{
+    border-right: 1px solid #000000;
+}
+.contact{
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.contact1 p{
+    font-weight: 300;
+    
+}
