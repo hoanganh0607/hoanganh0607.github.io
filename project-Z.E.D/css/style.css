@@ -20,6 +20,9 @@ a{
         background-color: #76c7e3;
         z-index: 100;
     }
+    .form-inline{
+        margin-bottom: 15px;
+    }
 
 }
 input{
@@ -155,9 +158,11 @@ input{
 }
 /*login header */
 
-@media (min-width: 576px){
+@media (min-width: 300px){
     .modal-dialog {
-        max-width: 411px;       
+        max-width: 390px;
+        margin: 1.75rem auto;
+              
     }
 }
 .modal-body{
@@ -167,13 +172,13 @@ input{
     padding-bottom: 0;
 }
 .input-2-1{
-    width: 365px;
+    width: 310px;
     height: 43px;
     margin-bottom: 20px;
     margin-left: 0;
 }
 .input-2-2{
-    width: 365px;
+    width: 310px;
     height: 43px;
     margin-bottom: 8px;
     margin-left: 0;
@@ -190,11 +195,14 @@ input{
     padding-bottom: 30px;
 }
 .btn-primary {
-    width: 365px;
+    width: 310px;
     height: 43px;
     background-color: #558B9D;
     border-color: #558B9D;
-}        
+}
+.btn-primary:hover{
+    background-color: #006b8f;
+}       
 .modal-body form a{
     color: #000000;
 

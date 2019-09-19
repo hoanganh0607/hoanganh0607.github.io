@@ -82,7 +82,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.btn-outline-info{
+.btn-outline-info, .btn-primary{
     width: 365px;
     height: 43px;
 }
@@ -124,8 +124,14 @@ a:hover{
 .product-number input{
     width: 45px;
 }
+
+
 /* contact */
 
+.contact{
+    margin-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.24);
+}
 .container {
     max-width: 1300px;
     padding-top: 30px;
@@ -133,7 +139,7 @@ a:hover{
         
 }
 
-.col-xl-4{
+.contact .col-xl-4{
     text-align: center;
 }
 .shopping{
@@ -162,11 +168,41 @@ a:hover{
     border-right: 1px solid #000000;
 }
 .contact{
-    margin-top: 50px;
-    border-top: 1px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 85px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 }
 
 .contact1 p{
     font-weight: 300;
-    
 }
+@media (max-width: 768px){
+    
+    .shopping, .phone, .hand {
+        height: 50px;
+        width: 50px;
+        margin-top: 20px;
+    }
+    .contact .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 440px){
+    .header-menu{        
+        height: 130px;
+    }
+    .contact .col{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .shopping, .phone, .hand {
+        height: 40px;
+        width: 40px;
+    }    
+}
+@media screen and (max-width: 500px) {
+    .contact1 p{
+        display: none;
+    }
+    
+} 
