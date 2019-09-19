@@ -114,8 +114,22 @@
                         <li class="nav-item">
                             <a class="nav-link" href="gioi-thieu.html">Giới thiệu</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="san-pham.html">Sản phẩm</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="san-pham.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sản phẩm
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="san-pham.html">Toàn bộ sản phẩm</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo phông</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo sơ mi</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo có cổ</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo mặc ở nhà</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần jean</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần kaki</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần short</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần vải</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Lien-he.html">Liên hệ</a>
@@ -143,14 +157,13 @@
     <!--Giỏ hàng-->
 
     <div class=" table-shopping">
-        <h1>Giỏ hàng</h1>            
-        <table class="table">              
+        <h1>Giỏ hàng</h1>
+        <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Hình ảnh</th>
                     <th scope="col">Sản phẩm</th>
-                    <th scope="col">Kích thước</th>
-                    <th scope="col">Màu sắc</th>
+                    <th class="showw" scope="col">Màu sắc</th>
+                    <th class="showw" scope="col">Size</th>
                     <th scope="col">Số lượng</th>
                     <th scope="col">Đơn giá</th>
                     <th scope="col">Xóa</th>
@@ -161,32 +174,50 @@
                     <td>
                         <a href="">
                             <img class="img-table" src="img/jpg/san-pham/anh1.jpg" alt="Áo sơ mi nam kẻ karo">
-                        </a>
+                        </a><br>
+                        <a href="">Áo sơ mi nam kẻ karo</a>
+                        <p class="p-hide">Màu sắc: Đỏ cam</p>
+                        <p class="p-hide">Size: XL</p>
                     </td>
-                    <td><a href="">Áo sơ mi nam kẻ karo</a></td>
-                    <td>XL</td>
-                    <td>Đỏ</td>
-                    <td>1</td>
+                    <td class="showw">Đen</td>
+                    <td class="showw">XL</td>
+                    <td>
+                        <div class="product-number">
+                            <input type="number" value="1" name="" id="" min="1" max="1000">
+                        </div><br>
+                    </td>
                     <td>60.000 VND</td>
-                    <td>xóa</td>
+                    <td><img src="img/jpg/rubbish-bin.png" alt=""></td>
                 </tr>
                 <tr class="tr-1">
-                    <td><a href=""><img class="img-table" src="img/jpg/san-pham/anh2.jpg" alt=""></a></td>
-                    <td><a href="">Áo mặc tại nhà</a></td>
-                    <td>XL</td>
-                    <td>Đen</td>
-                    <td>1</td>
+                    <td>
+                        <a href="">
+                            <img class="img-table" src="img/jpg/san-pham/anh2.jpg" alt="">
+                        </a><br>
+                        <a href="">Áo mặc tại nhà</a>
+                        <p class="p-hide">Màu sắc: Xám</p>
+                        <p class="p-hide">Size: XL</p>
+                    </td>
+                    <td class="showw">Xám</td>
+                    <td class="showw">L</td>
+                    <td>
+                        <div class="product-number">
+                            <input type="number" value="1" name="" id="" min="1" max="1000">
+                        </div><br>
+                    </td>
                     <td>100.000 VND</td>
-                    <td>Xóa</td>
+                    <td><img src="img/jpg/rubbish-bin.png" alt=""></td>
                 </tr>
 
             </tbody>
-        </table>   
+        </table>
         <div class="order">
             <h5>Số lượng: <span class="span-1">2</span></h5>
             <h5>Thành tiền: <span>160.000 VND</span></h5>
-            <a href="xac-nhan-dat-hang.html"><button type="button" class="btn btn-primary btn-lg ">Đặt hàng</button></a><br>
-            <a href="san-pham.html"><button type="button" class="btn btn-lg btn-outline-info">Tiếp tục mua hàng</button></a>
+            <a href="xac-nhan-dat-hang.html"><button type="button" class="btn btn-primary btn-lg ">Đặt
+                    hàng</button></a><br>
+            <a href="san-pham.html"><button type="button" class="btn btn-lg btn-outline-info">Tiếp tục mua
+                    hàng</button></a>
 
         </div>
     </div>

@@ -160,6 +160,9 @@
     line-height: 19px;
     color: #575757
 }
+.product a{
+    text-decoration: none;
+}
 
 .product .container h5{
     font-weight: bold;
@@ -172,6 +175,9 @@
 
 .pagination{
     padding-right: 80px;
+}
+.page-link{
+    color: #000000;
 }
 
 /* contact */

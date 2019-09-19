@@ -116,8 +116,22 @@
                         <li class="nav-item">
                             <a class="nav-link" href="gioi-thieu.html">Giới thiệu</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="san-pham.html">Sản phẩm</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="san-pham.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sản phẩm
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="san-pham.html">Toàn bộ sản phẩm</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo phông</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo sơ mi</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo có cổ</a>
+                                <a class="dropdown-item" href="san-pham.html">Áo mặc ở nhà</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần jean</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần kaki</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần short</a>
+                                <a class="dropdown-item" href="san-pham-2.html">Quần vải</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Lien-he.html">Liên hệ</a>
@@ -183,12 +197,19 @@
                         <img src="img/jpg/san-pham/chi-tiet-san-pham/Rectangle.png" alt="Màu đen">
                         <img src="img/jpg/san-pham/chi-tiet-san-pham/Rectangle-2.png" alt="Màu trắng">
                     </div><br>
+
                     <div class="size">
-                        <p>Kích cỡ:</p>
-                        <input type="checkbox" name="size" id="m"><label for="m">M</label>
-                        <input type="checkbox" name="size" id="l"><label for="l">L</label>
-                        <input type="checkbox" name="size" id="xl"><label for="xl">XL</label>
+                        <form action="">
+                            <label for="Kích cỡ">Kích cỡ</label><br>
+                            <select class="input-order" name="">
+                                <option>Chọn kích cỡ</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select><br>
+                        </form>
                     </div><br>
+
                     <div class="describe">
                         <p>Mô tả</p>
                         <p>

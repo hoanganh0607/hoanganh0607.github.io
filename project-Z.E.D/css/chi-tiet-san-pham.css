@@ -90,6 +90,9 @@ color: #0099CC;
 .color p, .size p, .describe p, .product-number p{
     font-size: 18px;
 }
+.product-number input{
+    width: 45px;
+}
 .size label{
     font-size: 21;
     margin-right: 10px;

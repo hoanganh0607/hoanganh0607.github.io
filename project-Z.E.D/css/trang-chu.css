@@ -20,9 +20,8 @@
     line-height: 28px;
     
 }
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0, 0, 0, 0.79);
-}
+  
+
 .form-control{
     background: rgba(62, 60, 60, 0.26);
     border-radius: 10px;
@@ -49,8 +48,7 @@
 .container {
     max-width: 1300px;
     padding-top: 30px;
-    padding-bottom: 30px;
-        
+    padding-bottom: 30px;      
 }
 
 .col-xl-4{
@@ -104,9 +102,6 @@
     }
 }
 @media (max-width: 440px){
-    .header-menu{        
-        height: 130px;
-    }
     .contact .col{
         padding-left: 0;
         padding-right: 0;
@@ -138,6 +133,13 @@
     margin-bottom: 12px;
     margin-top: 6px;    
 }
+.container-1{
+    margin-bottom: 53px;
+}
+.container-1:hover{
+    border: 1.5px solid #3599B9;
+}
+
 .container-new:link{
     color: #575757;
 }
@@ -148,7 +150,6 @@
     font-size: 24px;
     color: #31659C;
     font-weight: bold;
-    margin-bottom: 53px;
 }
 .product a{
     text-decoration: none;
@@ -184,14 +185,13 @@
     margin-bottom: 132px;
     background: url(../img/jpg/add_banner_img.jpg) no-repeat center;
     background-size: cover;
-    height: 560px; 
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     
 }
 .text-summer{
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
     font-family: 'Lora';       
     text-transform: uppercase;
     color: #252525;
@@ -287,7 +287,7 @@ color: #3599B9;
 }
 .slick-prev, .slick-next{
     z-index: 100;
-    top: 31%;
+    top: 35%;
     height: 32px;
     width: 32px;
 }
@@ -306,7 +306,7 @@ color: #3599B9;
     font-size: 24px;
     color: #31659C;
     font-weight: bold;
-    margin-bottom: 53px;
+    margin-bottom: 20px;
 }
 .slide-1 a{
     text-decoration: none;

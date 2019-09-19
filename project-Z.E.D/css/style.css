@@ -20,6 +20,7 @@ a{
         background-color: #76c7e3;
         z-index: 100;
     }
+
 }
 input{
     padding-left: 8px
@@ -59,7 +60,7 @@ input{
     font-size: 16px;
     line-height: 19px;
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 580px) {
     .contact-gmail, .contact-line{
         display: none;
     }
@@ -201,6 +202,29 @@ input{
 .modal-footer>:not(:first-child) {
     margin-left: 0;
 }
+
+/* header menu */
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.74)
+}
+.dropdown-menu{
+    padding: 0;
+    background-color: #ffffffc7;
+}
+.dropdown-item{
+    color: #000000;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.82);
+}
+@media (min-width: 992px){
+    .navbar-light .navbar-nav .nav-item:hover{
+        border-bottom: 2px solid rgb(0, 0, 0);
+        
+    }
+}  
+
 /* footer */
 footer{
     background: rgba(37, 37, 37, 0.9);

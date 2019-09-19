@@ -108,6 +108,22 @@ a:hover{
 .order .btn-primary{
     margin-bottom: 10px;
 }
+@media (min-width: 660px){
+    .p-hide{
+        display: none;
+    }
+}
+@media (max-width: 660px){
+    .showw{
+        display: none;
+    }
+    .btn-primary, .btn-outline-info{
+        width: 300px;
+    }
+}
+.product-number input{
+    width: 45px;
+}    
 .input-order{
     width: 70%;
     height: 36px;
