@@ -4,7 +4,6 @@ $(document).ready(function () {
     slidesToShow: 5,
     slidesToScroll: 5,
     centerMode: true,
-
     responsive: [
       {
         breakpoint: 1350,

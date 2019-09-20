@@ -3,22 +3,35 @@
 /* header-menu */
 
 .header-menu{
-    background: url(../img/jpg/ian-dooley-347942-unsplash.27d1967c.jpg) no-repeat center;
+    background: url(../img/jpg/banner-3.jpg) no-repeat center;
     background-size: cover;
-    height: 705px;
+    height: 725px;
 }
-
+.header-contact{
+    background: rgb(255, 255, 255);   
+}
+.row-menu{
+    background-color: #ffffff7d;
+    margin-right: 0;
+    margin-left: 0;
+}
 
 .bg-light{
     background-color: rgba(0, 0, 0, 0);
 }
 .nav-link{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 27px;
-    line-height: 28px;
-    
+    font-size: 21px;       
+}
+.form-inline .form-control{
+    height: 37px;
+}
+.btn-outline-success img{
+    width: 35px;
+    height: 25px;
+}
+.shopping-cart{
+    width: 25px;
+    height: 25px;
 }
   
 
@@ -67,7 +80,7 @@
 .hand{
     height: 70px;
     width: 70px;
-    margin-top: 20px
+    margin-top: 11px
 }
 .contact1{
     display: inline-table;
