@@ -232,9 +232,8 @@ input{
 }
 @media (min-width: 992px){
     .navbar-light .navbar-nav .nav-item:hover{
-        border-bottom: 2px solid rgb(0, 0, 0);
-        
-    }
+        border-bottom: 2px solid rgb(0, 0, 0);       
+    }   
 }
 .nav-link{
     font-size: 21px;       
