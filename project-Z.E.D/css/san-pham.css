@@ -186,7 +186,30 @@
 .page-link{
     color: #000000;
 }
+.img-hide{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;   
+}
+.img-hide{
+    transition: 0.4s;
+}
+.container-1 img:hover{
+    opacity: 0;
+}
+.container-1 .img-hide:hover{
+    opacity: 1;
+}
 
+.container-new{
+    position: relative;
+    display: inline-block;
+}
 /* contact */
 
 .contact{

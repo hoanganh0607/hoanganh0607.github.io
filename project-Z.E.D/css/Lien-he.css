@@ -134,7 +134,7 @@
     margin-top: 68px;
 }
 .contact form{
-    height: 619px;
+    min-height: 619px;
     background: #F4F4F4;
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -153,16 +153,18 @@
 }
 .contact .input-1{
     width: 80%;
-    height: 42px;  
+    height: 42px;
+    margin-bottom: 20px;  
 }
 .feedback{
     height: 130px;
     width: 80%;
 }
-.send{
+.contact .send{
     background: #0099CC;
     color: #FFFFFF;
     border: none;
+    margin-bottom: 50px;
 }
 
 

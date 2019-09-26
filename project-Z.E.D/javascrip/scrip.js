@@ -103,7 +103,5 @@ $(document).ready(function () {
     $(".xl-2").hide();
   })
 
-
-
 })
 

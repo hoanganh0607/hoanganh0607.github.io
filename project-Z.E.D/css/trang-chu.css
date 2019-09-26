@@ -7,6 +7,9 @@
     background-size: cover;
     height: 725px;
 }
+.navbar{
+    padding: .5rem 2rem;
+}
 .header-contact{
     background: rgb(255, 255, 255);   
 }
@@ -34,7 +37,6 @@
     width: 25px;
     height: 25px;
 }
-  
 
 .form-control{
     background: rgba(62, 60, 60, 0.26);
@@ -52,8 +54,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
-    line-height: 23px;
-    
+    line-height: 23px;   
 }
 
 /* contact */
@@ -145,13 +146,40 @@
 }
 .product p{
     margin-bottom: 12px;
-    margin-top: 6px;    
+    margin-top: 6px;
+    font-size: 19px;    
 }
 .container-1{
     margin-bottom: 53px;
 }
-.container-1:hover{
-    border: 1.5px solid #3599B9;
+.img-hide{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    display: block;   
+}
+.img-hide{
+    transition: 0.4s;
+}
+.container-1 .img:hover{
+    opacity: 0;  
+}
+.container-1 .img-hide:hover{
+    opacity: 1;
+}
+.slide-1 .img-show:hover{
+    opacity: 0;
+}
+.slide-1 .img-hide:hover{
+    opacity: 1;
+}
+.container-new{
+    position: relative;
+    display: inline-block;
 }
 
 .container-new:link{
@@ -191,6 +219,9 @@
     border-style: solid;
 }
 
+
+
+
 /* banner bộ sưu tập hè thu*/
 
 .banner-summer{
@@ -220,6 +251,7 @@ line-height: 42px;
 .text-summer h5 span{
     font-weight: bold;
     font-size: 43px;
+    color: #ff4949;
 }
 .text-summer h6{
     font-weight: 500;
@@ -315,6 +347,7 @@ color: #3599B9;
     margin-bottom: 6px;
     margin-top: 6px;
     color: #575757;
+    font-size: 19px;
 }
 .slide-1 h5{
     font-size: 24px;
@@ -332,7 +365,7 @@ color: #3599B9;
 /* banner phong cách thời trang */
 
 .banner-fashion{
-    background: url(../img/jpg/anh.jpg) no-repeat center;
+    background: url(../img/jpg/anh-3.jpg) no-repeat center;
     background-size: cover;
     height: 550px;
     position: relative;

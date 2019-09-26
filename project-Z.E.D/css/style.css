@@ -15,17 +15,7 @@ input:focus, select:focus, textarea:focus{
 a{
     text-decoration: none;
 }
-@media (max-width: 992px){
-    .navbar-expand-lg .navbar-collapse{
-        background-color: #ffffff;
-        z-index: 100;
-        border: 0.1px solid #a5a5a5;
-    }
-    .form-inline{
-        margin-bottom: 15px;
-    }
 
-}
 input{
     padding-left: 8px
 }
@@ -227,12 +217,16 @@ input{
 .dropdown-item{
     color: #000000;
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: rgba(62, 60, 60, 0.26);
+}    
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, 0.82);
 }
 @media (min-width: 992px){
     .navbar-light .navbar-nav .nav-item:hover{
-        border-bottom: 2px solid rgb(0, 0, 0);       
+        background-color: rgba(62, 60, 60, 0.26);
+        border-radius: 5px;       
     }   
 }
 .nav-link{
@@ -249,7 +243,33 @@ input{
     width: 25px;
     height: 25px;
 }  
-
+.cart-number{
+    position: absolute;
+    top: -6px;
+    right: -11px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #0099CC;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20p;
+    line-height: 20px;
+    text-align: center;
+}  
+.form-inline a{
+    position: relative;
+}
+@media (max-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        background-color: #ffffff;
+        z-index: 100;
+        border: 0.1px solid #a5a5a5;
+    }
+    .form-inline{
+        margin-bottom: 15px;
+    }
+}
 /* footer */
 footer{
     background: rgba(37, 37, 37, 0.9);
