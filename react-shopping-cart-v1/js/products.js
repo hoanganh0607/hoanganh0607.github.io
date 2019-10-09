@@ -4,6 +4,7 @@ class Products extends React.Component {
     this.state = {
       products: [
         {
+          id: 1,
           name: "Hàng 1",
           image: "https://via.placeholder.com/200x150",
           description: "Hàng dễ vỡ xin nhẹ tay 1",
@@ -11,6 +12,7 @@ class Products extends React.Component {
           quantity: 1
         },
         {
+          id: 2,
           name: "Hàng 2",
           image: "https://via.placeholder.com/200x150",
           description: "Hàng dễ vỡ xin nhẹ tay 2",
@@ -18,6 +20,7 @@ class Products extends React.Component {
           quantity: 2
         },
         {
+          id: 3,
           name: "Hàng 3",
           image: "https://via.placeholder.com/200x150",
           description: "Hàng dễ vỡ xin nhẹ tay 3",
@@ -28,7 +31,11 @@ class Products extends React.Component {
     };
   }
 
+
   render() {
+    function FormatPrice(price) {
+      return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(price);
+    }
     const products = this.state.products
     const listProduct = products.map((product) =>
       <li className="row" key={product.id}>
@@ -43,7 +50,7 @@ class Products extends React.Component {
               <a href="#">{product.name}</a>
             </div>
             <div className="description">{product.description}</div>
-            <div className="price">{product.price}</div>
+            <div className="price">{FormatPrice(product.price)}</div>
           </div>
         </div>
         <div className="col right">
