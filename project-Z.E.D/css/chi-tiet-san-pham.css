@@ -92,6 +92,9 @@ color: #0099CC;
 .xs{
     width: 20%;
 }
+.img-show{
+    cursor: pointer
+}
 .btn-outline-info, .btn-primary{
     height: 50px;
     width: 49%;

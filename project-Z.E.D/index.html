@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/trang-chu.css">
-    <title>Trang chủ C.E.C</title>
+    <title>Trang chủ Z.E.D</title>
     <link href="https://fonts.googleapis.com/css?family=Lora|Roboto|Amita|Raleway&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/png" href="img/jpg/dragon.png" />
@@ -39,15 +39,17 @@
                 hoanganhn39@gmail.com
             </span>
             <span class="contact-login">
-                <input type="submit" class="btn btn-login" id="exampleModalLabel" data-toggle="modal"
-                    data-target="#exampleModal" value="Đăng kí">
+                <button type="button" class="btn btn-login btn-registration" data-toggle="modal" data-target="#exampleModal" value="Đăng kí">
+                    Đăng kí
+                </button>
             </span>
             <span class="contact-line2">
                 <img src="img/jpg/Line.jpg">
             </span>
             <span class="contact-registration">
-                <input type="submit" class="btn btn-login" id="exampleModalLabel" data-toggle="modal"
-                    data-target="#exampleModal" value="Đăng nhập">
+                <button type="button" class="btn btn-login btn-log-in" data-toggle="modal" data-target="#exampleModal" value="Đăng nhập">
+                    Đăng nhập
+                </button>
             </span>
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -56,28 +58,30 @@
                     <div class="modal-content">
                         <div class="modal-login">
                             <div class="modal-login-div-1">
-                                <input class="modal-title modal-login-input login-input-1" type="submit"
-                                    value="Đăng nhập">
+                                <button type="button" class="modal-title modal-login-input btn-log-in login-input-1" value="Đăng nhập">
+                                    Đăng nhập
+                                </button>
 
                             </div>
                             <div class="modal-login-div-2">
-                                <input class="modal-title modal-login-input login-input-2" type="submit"
-                                    value="Đăng kí">
+                                <button type="button" class="modal-title modal-login-input btn-registration login-input-2" value="Đăng kí">
+                                    Đăng kí
+                                </button>
                             </div>
                         </div>
                         <div class="modal-body">
-                            <form class="hien">
+                            <form class="login-show">
                                 <label class="lable-2" for="email">Email</label><br>
                                 <input class="input-2-1" type="email" name="" placeholder="Nhập địa chỉ email"
                                     id="email"><br>
                                 <label class="lable-2" for="password">Mật khẩu</label><br>
                                 <input class="input-2-2" type="password" placeholder="Nhập mật khẩu" name=""
                                     id="password">
-                                <a href="">
+                                <a href="#">
                                     <p>Quên mật khẩu?</p>
                                 </a>
                             </form>
-                            <form class="an">
+                            <form class="registration-hide">
                                 <label class="lable-2" for="name">Họ và tên</label><br>
                                 <input class="input-2-1" type="name" name="" placeholder="Nhập họ tên" id="name"><br>
                                 <label class="lable-2" for="email">Địa chỉ email</label><br>
@@ -92,8 +96,8 @@
                             </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary hien">Đăng nhập</button>
-                            <button type="button" class="btn btn-primary an">Đăng kí</button>
+                            <button type="button" class="btn btn-primary login-show">Đăng nhập</button>
+                            <button type="button" class="btn btn-primary registration-hide">Đăng kí</button>
                         </div>
                     </div>
                 </div>
@@ -386,7 +390,6 @@
 
         <div>
             <h1>Phong cách thời trang hiện đại</h1>
-
 
         </div>
 

@@ -26,7 +26,7 @@ class Products extends React.Component {
         <div className="col right">
           <div className="quantity">
             <input
-              type="number"
+              type="number"             
               className="quantity"
               step={1}
               defaultValue={product.quantity}

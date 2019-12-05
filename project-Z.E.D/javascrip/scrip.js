@@ -51,17 +51,17 @@ $('.carousel').carousel({
 /* login an, hien */
 
 $(document).ready(function () {
-  $("input[value='Đăng nhập']").click(function () {
-    $(".hien").show();
-    $(".an").hide();
+  $(".btn-log-in[value='Đăng nhập']").click(function () {
+    $(".login-show").show();
+    $(".registration-hide").hide();
     $(".login-input-2").css('background-color', '#558B9D');
     $(".login-input-2").css('color', '#FFFFFF');
     $(".login-input-1").css('color', '#000000');
     $(".login-input-1").css('background-color', '#FFFFFF');
   })
-  $("input[value='Đăng kí']").click(function () {
-    $(".hien").hide();
-    $(".an").show();
+  $(".btn-registration[value='Đăng kí']").click(function () {
+    $(".login-show").hide();
+    $(".registration-hide").show();
     $(".login-input-1").css('background-color', '#558B9D');
     $(".login-input-1").css('color', '#FFFFFF');
     $(".login-input-2").css('color', '#000000');

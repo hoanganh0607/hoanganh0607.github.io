@@ -25,6 +25,17 @@ input{
 .navbar-nav .nav-link , .form-inline{
     padding-left: 12px;
 }
+.btn:focus, button:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: rgba(62, 60, 60, 0.26);
+    outline: 0;
+    box-shadow: none;
+}
 
 
 /* Header */
@@ -68,9 +79,6 @@ input{
     width: 25px;
 }
 
-
-
-
 .btn-outline-success{   
     border-radius: 0;
     padding: 0;
@@ -111,6 +119,7 @@ input{
 }
 .btn-login{
     margin-left: 0;
+    outline: 0;
 
 }
 .contact-line2{
@@ -141,6 +150,7 @@ input{
     font-size: 21px;
     margin-left: 0;
 }
+
 .modal-login-div-2{
     width: 50%;
     display: flex;
@@ -296,6 +306,7 @@ footer .container{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 
 
 
