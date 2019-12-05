@@ -74,9 +74,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-.btn-outline-info, .btn-primary{
-    width: 365px;
-    height: 43px;
+.btn-lg{
+    width: 310px;
 }
 a{
     color: #000000;
