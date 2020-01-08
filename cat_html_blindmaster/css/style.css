@@ -19,8 +19,8 @@ li{
     display: none;
 }
 @font-face {
-    font-family: 'HelveticaNeue Light';
-    src: url('../font/HelveticaNeue Light.ttf');
+    font-family: 'HelveticaNeue';
+    src: url('../font/Helvetica/HelveticaNeue.otf');
 }
 .huhu{
     z-index: 1000;
@@ -329,13 +329,14 @@ header{
 .text p {
     width: 40.30%;
     font-size: 16px;
-    font-family: 'HelveticaNeue Light'
-    
+    font-family: 'HelveticaNeue';
+    line-height: 1.38;   
 }
 .text h3{
     margin-right: 5.6%;
     font-size: 30px;
   font-weight: bold;
+  color: #342d50;
 }
 
 /*discover*/
@@ -353,7 +354,7 @@ header{
     transition: 0.8s;
 }
 .discover-square-2 img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     overflow: hidden;
     transition: 0.8s;
 }
@@ -427,13 +428,14 @@ header{
     padding: 18px 59px 15px 59px;
     border: solid 1px #68566b;
 }
+
+.featured-square-learnmore:link, .featured-square-project, .featured-square-project-2, .featured-square-featured{
+    color: #342d50;
+}
 .featured-square-learnmore:hover{
     background-color: #342d50;
     color: #fff;
     transition: 0.4s;
-}
-.featured-square-learnmore:link, .featured-square-project, .featured-square-project-2, .featured-square-featured{
-    color: #342d50;
 }
 
 /* tech-hub*/
@@ -476,6 +478,7 @@ header{
 .our-brands-img h1{
     text-align: center;
     margin-bottom: 51px;
+    color: #342d50;
 }
 .our-brands-img img{
     width: 100%;
@@ -598,6 +601,7 @@ footer ul li{
 }
 .quick-link ul li{
     margin-bottom: 10px;
+    font-family: 'HelveticaNeue';
 }
 .quick-link ul li:nth-child(7){
     margin-bottom: 20px;
@@ -612,6 +616,7 @@ footer ul li{
 }
 .visit-us ul li{
     margin-bottom: 20px;
+    font-family: 'HelveticaNeue';
 }
 .visit-us ul li:nth-child(4){
     margin-bottom: 40px;
@@ -644,6 +649,7 @@ footer ul li{
     justify-content: center;
     margin-bottom: 20px;
 }
+
 .about-img{
     width: 50%;
     display: flex;
@@ -688,7 +694,19 @@ footer ul li{
 .box-text h3, .box-text-2 h3{
     font-size: 22px;
 }
-/* responsive menu*/
+.footer-copyright {
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+  }
+  .footer-copyright-fixed {
+    margin-left: 244px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+  }
+/* responsive*/
 @media(min-width:100px){
     .slick-banner .slick-prev, .slick-banner .slick-next{
         transform: translate(0, 404%);
@@ -786,6 +804,9 @@ footer ul li{
         width: 400px;
         height: 400px;
     }
+    .footer-copyright-fixed {
+        margin-left: 100px;
+      }
     
 }
 @media(max-width: 1200px){
@@ -992,6 +1013,15 @@ footer ul li{
     .hover-img > div{
         background-color: #342d50;
     }
+    .footer-copyright-fixed {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+      }
+      .copyright-2 {
+        display: none;
+      }
 }
 @media(max-width: 650px){
     .slick-banner .slick-prev, .slick-banner .slick-next {
