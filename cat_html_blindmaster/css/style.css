@@ -55,6 +55,7 @@ li{
 }
 .header__btn--contactus a{
     color: #fff;
+    font-size: 12px;
 }
 .header-contact, .header-menu{
     width: 74.6875%;
@@ -342,11 +343,12 @@ header{
 /*discover*/
 .discover{
     display: flex;
-    
+    width: 100%;
 }
 .discover-square, .discover-square-2{
     position: relative;
     overflow: hidden !important;
+    width: 50%;
 }
 .discover-square img:hover{
     transform: scale(1.1);
@@ -550,7 +552,7 @@ header{
     margin: 0;
 }
 .slick-img{
-    max-width: 1539px;
+    max-width: 1433px;
 }
 .slick-img img{
     padding: 9px;
