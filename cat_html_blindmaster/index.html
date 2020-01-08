@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BLINDMASTER</title>
+    <link href="https://dev-blindmaster.pantheonsite.io/wp-content/themes/blindmaster/assets/favicons/favicon-32x32.png"
+        rel="shortcut icon">
     <link rel="stylesheet" href="https://use.typekit.net/vmw4hpe.css">
     <link rel="stylesheet" type="text/css" href="library/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="library/slick/slick-theme.css" />
@@ -14,6 +16,7 @@
 
 <body>
     <header>
+        <!--header-menu-->
 
         <div class="header-top">
             <div class="header-contact">
@@ -81,6 +84,9 @@
                     </div>
                 </nav>
             </div>
+
+            <!--header-menu mobile-->
+
             <div class="header-menu-mobile">
                 <nav>
                     <a class="menu-logo-mobile" href="#">BLINDMASTER</a>
@@ -160,9 +166,10 @@
 
             </div>
         </div>
-
-
-
+        <!--btn contact-->
+        <div class="header__btn--contactus">
+            <a href="#">CONTACT US</a>
+        </div>
 
         <div class="slick-banner">
             <div>
@@ -186,15 +193,19 @@
             </div>
             <div class="text-scroll">
                 <div>
-                    <p>SCROLL</p>
-                    <p>TO DISCOVER</p>
-                    <img src="images/hihi-3.png" alt="img">
+                    <a href="#discover">
+                        <p>SCROLL</p>
+                        <p>TO DISCOVER</p>
+                        <img src="images/hihi-3.png" alt="img">
+                    </a>
+
                 </div>
 
             </div>
 
         </div>
     </header>
+    <!--content-->
     <div id="content">
         <div class="text-introduce">
             <div class="text">
@@ -210,7 +221,7 @@
                 </p>
             </div>
         </div>
-        <div class="discover">
+        <div class="discover" id="discover">
             <div class="discover-square">
                 <img src="images/img-2.jpg" alt="img">
                 <div class="square">
@@ -257,17 +268,21 @@
                 </div>
             </div>
         </div>
+        <!--content our-bands-->
         <div class="our-brands">
             <div class="our-brands-img">
                 <h1>OUR BRANDS</h1>
                 <div class="box-img">
                     <div class="img-left">
-                        <img class="hihi" src="images/Markilux.jpg" alt="img">
+                        <img src="images/Markilux.jpg" alt="img">
+
                         <div class="hover-img">
                             <div>
                                 <div>
                                     <p>Awnings</p>
                                     <img src="images/markilux-logo copy_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/markilux-logo copy_White-2.png"
+                                        alt="img">
                                 </div>
                             </div>
                         </div>
@@ -280,6 +295,7 @@
                                 <div>
                                     <p>LOUVRE ROOFING</p>
                                     <img src="images/Renson_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/Renson_White-2.png" alt="img">
                                 </div>
                             </div>
                         </div>
@@ -292,6 +308,7 @@
                                 <div>
                                     <p>FINS & SHUTTERS</p>
                                     <img src="images/Corradi.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/Corradi-2.png" alt="img">
                                 </div>
                             </div>
                         </div>
@@ -303,10 +320,12 @@
                                 <div>
                                     <p>RETRACTABLE ROOFING</p>
                                     <img src="images/markilux-logo copy_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/markilux-logo copy_White-2.png"
+                                        alt="img">
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="img-left">
                         <img src="images/Evaya.jpg" alt="img">
@@ -315,10 +334,11 @@
                                 <div>
                                     <p>EXTERNAL VENETIAN BLINDS</p>
                                     <img src="images/EvayaLogo copy_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/EvayaLogo copy_White-2.png" alt="img">
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                     <div class="img-right">
                         <img src="images/Bahama.jpg" alt="img">
@@ -327,9 +347,10 @@
                                 <div>
                                     <p>UMBRELLAS</p>
                                     <img src="images/Bahama copy_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/Renson_White-2.png" alt="img">
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                     <div class="img-left">
                         <img src="images/c4sun.jpg" alt="img">
@@ -338,9 +359,10 @@
                                 <div>
                                     <p>RETRACTABLE SAILS</p>
                                     <img src="images/c4sun_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/c4sun_White-2.png" alt="img">
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="img-right">
                         <img src="images/verosol.jpg" alt="img">
@@ -349,9 +371,10 @@
                                 <div>
                                     <p>BLINDS</p>
                                     <img src="images/logo-verosol_White.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/logo-verosol_White-2.png" alt="img">
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="img-left">
                         <img src="images/BQDesign.jpg" alt="img">
@@ -360,9 +383,10 @@
                                 <div>
                                     <p>CURTAINS</p>
                                     <img src="images/BQlogo copyWhite.png" alt="img">
+                                    <img class="hover-img--mobile" src="images/BQlogo copyWhite-2.png" alt="img">
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="img-right">
                         <img src="images/Norman.jpg" alt="img">
@@ -371,9 +395,11 @@
                                 <div>
                                     <p>SHUTTERS</p>
                                     <img src="images/Norman-SHUTTERS.-BLINDS.-SHADES_Logo_White.png" alt="img">
+                                    <img class="hover-img--mobile"
+                                        src="images/Norman-SHUTTERS.-BLINDS.-SHADES_Logo_White-2.png" alt="img">
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="img-left">
                         <img src="images/centor.jpg" alt="img">
@@ -384,22 +410,23 @@
                                     <h2>CENTOR</h2>
                                 </div>
                             </div>
-                        </div>                       
+                        </div>
                     </div>
                     <div class="img-right">
                         <img src="images/Somfy_14801_crop1.jpg" alt="img">
-                        <div  class="hover-img">
+                        <div class="hover-img">
                             <div>
                                 <div>
                                     <p>AUTOMATION</p>
                                     <h2>SOMFY59</h2>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--content follow-us-->
         <div class="follow-us">
             <div>
                 <div class="follow-us-ig">
@@ -423,50 +450,66 @@
             </div>
         </div>
     </div>
+    <!--footer-->
 
     <footer>
         <div class="footer-index">
-            <div class="quick-link">
-                <ul>
-                    <p>QUICK LICKS</p>
-                    <li>Outdoor</li>
-                    <li>Indoor</li>
-                    <li>Projects</li>
-                    <li>Our brands</li>
-                    <li>Our story</li>
-                    <li>FAQs</li>
-                    <a href="#">TECH HUB</a><br>
-                    <a href="#">METHODOLOGY</a>
-                </ul>
-            </div>
-            <div class="visit-us">
-                <ul>
-                    <p>VISIT US</p>
-                    <li>02 9909 6700</li>
-                    <li>1 Chard Road, Brookvale NSW </li>
-                    <li>info@blindmaster.com.au</li>
+            <div class="footer-contact">
+                <div class="quick-link">
                     <ul>
-                        <p>FOLLOW US</p>
-                        <img src="images" alt="img">
-                        <img src="images" alt="img">
-                        <img src="images" alt="img">
+                        <p><span>QUIC</span>K LICKS</p>
+                        <li>Outdoor</li>
+                        <li>Indoor</li>
+                        <li>Projects</li>
+                        <li>Our brands</li>
+                        <li>Our story</li>
+                        <li>FAQs</li>
+                        <div class="footer__btn--desktop">
+                            <div><a href="#">TECH HUB</a><br></div>
+                            <div><a href="#">METHODOLOGY</a></div>
+                        </div>
+
                     </ul>
-                </ul>
+                </div>
+                <div class="visit-us">
+                    <ul>
+                        <p><span>VISI</span>T US</p>
+                        <li>02 9909 6700</li>
+                        <li>1 Chard Road, Brookvale NSW </li>
+                        <li>info@blindmaster.com.au</li>
+                        <ul>
+                            <p><span>FOLLO</span>W US</p>
+                            <img src="images/facebook-2.png" alt="img">
+                            <img src="images/instagram-2.png" alt="img">
+                            <img src="images/pinterest-2.png" alt="img">
+                        </ul>
+                    </ul>
+                </div>
             </div>
+            <div class="footer__btn--mobile">
+                <div><a href="#">TECH HUB</a><br></div>
+                <div><a href="#">METHODOLOGY</a></div>
+            </div>
+
             <div class="about-img">
                 <div>
-                    <div>
-                        <p>GET STARTED</p>
-                        <h3>BOOK A
-                            CONSULTATION</h3>
+                    <div class="box-text">
+                        <div>
+                            <p>GET STARTED</p>
+                            <h3>BOOK A</h3>
+                            <h3>CONSULTATION</h3>
+                        </div>
+
                     </div>
                     <img src="images/02700805.png" alt="img">
                 </div>
                 <div>
-                    <div>
-                        <p>GET STARTED</p>
-                        <h3>VISIT OUR
-                            SHOWROOM</h3>
+                    <div class="box-text-2">
+                        <div>
+                            <p>GET STARTED</p>
+                            <h3>VISIT OUR</h3>
+                            <h3>SHOWROOM</h3>
+                        </div>
                     </div>
                     <img src="images/03916746.png" alt="img">
                 </div>
