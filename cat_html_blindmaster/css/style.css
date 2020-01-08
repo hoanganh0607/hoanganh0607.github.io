@@ -1076,6 +1076,9 @@ footer ul li{
     }
     .square, .square-2{
         bottom: 4px;
+    }
+    .discover-square, .discover-square-2 {
+        width: 100%;
     } 
 }
 @media (max-width: 550px){
