@@ -58,6 +58,24 @@ $(document).ready(function () {
       }
     });
 
+    /*btn contact us*/
+
+    $(this) // phần tử được click
+    .children() // Lấy tất cả các nhánh con
+    .first() // Lấy phần tử đầu tiên của nó
+    .attr('id'); // Lấy giá trị thuộc tính id
+
+      $('.header__btn--contactus').click(function(){
+        $('.btn-contact').addClass('btn-contact--click')
+      })
+      $('.btn-contact__close').click(function(){
+        $('.btn-contact').removeClass('btn-contact--click')
+
+        
+      })
+      
+    
+
     /*menu mobile*/
 
     $(".menu-mobile").hide();

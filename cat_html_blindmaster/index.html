@@ -43,11 +43,11 @@
                     <a class="menu-logo" href="#">BLINDMASTER</a>
                     <div class="menu">
                         <ul>
-                            <li>
+                            <li class="menu__outdoor--hover">
                                 <a class="menu-click" href="#">OUTDOOR</a>
-                                <ul class="menu-level2">
+                                <ul class="menu__outdoor--level2">
                                     <ul class="menu-ul-1">
-                                        <li class="menu-outdoor"><a href="#">OUTDOOR</a></li>
+                                        <li class="menu-outdoor menu__outdoor--margin"><a href="#">OUTDOOR</a></li>
                                         <li><a href="#">Awnings</a></li>
                                         <li><a href="#">Louvre Roofing</a></li>
                                         <li><a href="#">Fins & Shutters</a></li>
@@ -61,9 +61,23 @@
                                     </ul>
                                     <span><img src="images/02700805.jpg" alt="img"></span>
                                 </ul>
+
                             </li>
-                            <li>
+                            <li class="menu__indoor--hover">
                                 <a href="#">INDOOR</a>
+                                <ul class="menu__indoor--level2">
+                                    <ul class="menu-ul-1">
+                                        <li class="menu-outdoor">Indoor</li>
+                                        <li>Blinds</li>
+                                        <li>Curtains</li>
+                                        <li>Shutters</li>
+                                        <li>Retractable Flyscreen</li>
+                                        <li>Automation</li>
+                                    </ul>
+                                    <ul>
+                                        <img src="images/stock-photo-modern-corridor-interior-403693150.jpg" alt="img">
+                                    </ul>
+                                </ul>
                             </li>
                             <li>
                                 <a href="#">PROJECT</a>
@@ -167,9 +181,28 @@
             </div>
         </div>
         <!--btn contact-->
-        <div class="header__btn--contactus">
-            <a href="#">CONTACT US</a>
+        <div class="btn-contact">
+                <div class="header__btn--contactus">
+                    <a>CONTACT US</a>
+                </div>
+                <div class="btn-contact__form">
+                    <div>
+                        <form>
+                            <span class="btn-contact__close"><img src="images/close.png" alt="img"></span>
+                            <h2>Contact Us</h2>
+                            <p>Call us on 02 9909 6700 or leave a message below and we will be in contact shortly.</p>
+                            <input class="btn-contact__information" type="text" placeholder="Name*">
+                            <input class="btn-contact__information" type="email" placeholder="Email*">
+                            <input class="btn-contact__information" type="number" placeholder="Phone">
+                            <textarea class="btn-contact__Message" cols="30" rows="10" placeholder="Message*"></textarea>
+                            <input class="btn-contact__information " type="text" placeholder="What is the first letter in the word blindmaster?*">
+                            <a class="btn-contact__submit" href="#">Submit</a>
+                                   
+                        </form>
+                    </div>
+                </div>
         </div>
+
 
         <div class="slick-banner">
             <div>
@@ -191,17 +224,21 @@
                 </div>
 
             </div>
-            <div class="text-scroll">
-                <div>
-                    <a href="#discover">
+            <a href="#discover">
+                <div class="text-scroll">
+                    <div>
+
                         <p>SCROLL</p>
                         <p>TO DISCOVER</p>
                         <img src="images/hihi-3.png" alt="img">
-                    </a>
+
+
+                    </div>
 
                 </div>
 
-            </div>
+
+            </a>
 
         </div>
     </header>
@@ -515,7 +552,7 @@
                 </div>
             </div>
         </div>
-        
+
 
     </footer>
     <div class='footer-copyright'>
